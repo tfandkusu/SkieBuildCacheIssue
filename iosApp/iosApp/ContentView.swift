@@ -7,7 +7,7 @@ struct ContentView: View {
 	var body: some View {
         VStack {
             Text(greet)
-            Text(Fruits.melon.stringValue())
+            Text(Fruits.goal.name)
         }
 	}
 }
